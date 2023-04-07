@@ -12,7 +12,7 @@ export class ProductComponent {
   constructor(){  }
 
   onClick(): void{
-   console.log('click ',this.product); 
+   //console.log('click ',this.product); 
    this.addToCartClick.emit(this.product);
   }
 
