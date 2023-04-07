@@ -1,3 +1,7 @@
 <section class="products">
-    <app-product [product]="product" *ngFor="let product of products"></app-product>    
+    <app-product 
+    (addToCartClick)="addToCart($event)"
+    [product]="product" 
+    *ngFor="let product of products"
+    ></app-product>    
 </section>
