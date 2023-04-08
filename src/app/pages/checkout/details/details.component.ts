@@ -11,6 +11,6 @@ export class DetailsComponent {
   cart$ = this.shoppingCartSvc.cartActions$;
 
   constructor(private shoppingCartSvc: ShoppingCartService){
-
+    
   }
 }
