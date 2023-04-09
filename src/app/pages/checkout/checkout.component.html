@@ -13,38 +13,41 @@
             Name is required
         </mat-error>
     </mat-form-field>
+    isDelivery - {{isDelivery}}
     <mat-radio-group class="form__element">
         <p>choose an option:</p>
         <mat-radio-button 
         value="pickup"
-        (change)="onPickupOrDelivery(false)"
+        (change)="onPickupOrDelivery(false)" checked
         >pickup</mat-radio-button>
         <mat-radio-button 
         value="delivery"
         (change)="onPickupOrDelivery(true)"
         >delivery</mat-radio-button>
     </mat-radio-group>
-    <mat-form-field class="form__element">
-        <input
-        matInput
-        placeholder="Shipping Address"
-        required
-        [(ngModel)]="model.shippingAddress"
-        name="shippingAddress"
-        #shippingAddress="ngModel"
-        />
-    </mat-form-field>
-    <mat-form-field class="form__element">
-        <input
-        matInput
-        placeholder="City"
-        required
-        [(ngModel)]="model.city"
-        name="city"
-        #city="ngModel"
-        />
-    </mat-form-field>
-
+    <ng-container *ngIf="isDelivery; else showStores">
+        <mat-form-field class="form__element">
+            <input
+            matInput
+            placeholder="Shipping Address"
+            required
+            [(ngModel)]="model.shippingAddress"
+            name="shippingAddress"
+            #shippingAddress="ngModel"
+            />
+        </mat-form-field>
+        <mat-form-field class="form__element">
+            <input
+            matInput
+            placeholder="City"
+            required
+            [(ngModel)]="model.city"
+            name="city"
+            #city="ngModel"
+            />
+        </mat-form-field>
+    </ng-container>
+    <ng-template #showStores>
     <mat-form-field class="form__element">
         <mat-label>select me</mat-label>
         <mat-select name="store" #store="ngModel" [(ngModel)]="model.store">
@@ -53,6 +56,7 @@
             </mat-option>
         </mat-select>
     </mat-form-field>
+    </ng-template>
 </form>
 </div>
 <app-details></app-details>

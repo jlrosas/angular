@@ -16,6 +16,7 @@ export class CheckoutComponent implements OnInit{
     city:''
   };
 
+  isDelivery: boolean = false;
   stores: Store[] = [];
 
   constructor(private dataSvc: DataService){
@@ -27,7 +28,7 @@ export class CheckoutComponent implements OnInit{
   }
 
   onPickupOrDelivery(value:boolean): void{
-    console.log(value);
+    this.isDelivery = value;
   }
 
   onSubmit(): void{
