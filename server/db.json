@@ -137,6 +137,19 @@
       "date": "4/9/2023",
       "pickup": false,
       "id": 2
+    },
+    {
+      "name": "ddddd",
+      "store": {
+        "id": 4,
+        "name": "Covent Garden - Russell St",
+        "address": "10 Russell Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "4/9/2023",
+      "pickup": false,
+      "id": 3
     }
   ],
   "detailsOrders": [
@@ -150,6 +163,22 @@
       "details": [],
       "orderId": 2,
       "id": 2
+    },
+    {
+      "details": [
+        {
+          "productId": 6,
+          "productName": "CL3 Rated High-Speed 4K HDMI Cable - 6 Feet",
+          "quantity": 1
+        },
+        {
+          "productId": 7,
+          "productName": "Logitech MK270 Wireless Keyboard and Mouse Combo",
+          "quantity": 1
+        }
+      ],
+      "orderId": 3,
+      "id": 3
     }
   ]
 }

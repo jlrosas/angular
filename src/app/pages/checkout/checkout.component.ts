@@ -20,7 +20,7 @@ export class CheckoutComponent implements OnInit{
     city:''
   };
 
-  isDelivery: boolean = false;
+  isDelivery: boolean = true;
   cart: Product[] = [];
   stores: Store[] = [];
 
@@ -73,8 +73,9 @@ export class CheckoutComponent implements OnInit{
   private prepareDetails() : Details[]{
     const details  :  Details[] = [];
     this.cart.forEach(
-      res => {
-        console.log(res)
+      (product:Product) => {
+        const {id:productId, name:productName,qty:quantity, stock} = product;
+        details.push({productId,productName,quantity});
       }
     )
     return details;
