@@ -17,7 +17,6 @@ import { ShoppingCartService } from '../../services/shopping-cart.service';
 export class CartComponent{
     quantity$ = this.shoppingCartSvc.quantityAction$;
     total$ = this.shoppingCartSvc.totalActions$;
-    cart$ = this.shoppingCartSvc.cartActions$;
     constructor(private shoppingCartSvc: ShoppingCartService){
 
     }
