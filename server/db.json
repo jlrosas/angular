@@ -65,7 +65,7 @@
       "price": 5,
       "description": "En Hackeando del cerebro de tus compradores, Corti nos revela cómo muchas compañías crean productos digitales o procesos de venta capaces de conectar con la psicología del comprador.",
       "categoryId": 1,
-      "stock": 10
+      "stock": 6
     },
     {
       "id": 3,
@@ -150,6 +150,101 @@
       "date": "4/9/2023",
       "pickup": false,
       "id": 3
+    },
+    {
+      "name": "sdsdsds",
+      "shippingAddress": "dsdsd",
+      "city": "sdds",
+      "date": "4/9/2023",
+      "pickup": true,
+      "id": 4
+    },
+    {
+      "name": "wewew",
+      "shippingAddress": "wewe",
+      "city": "ewew",
+      "date": "4/9/2023",
+      "pickup": true,
+      "id": 5
+    },
+    {
+      "name": "dsdsds",
+      "shippingAddress": "dsdsd",
+      "city": "dsdsd",
+      "date": "4/9/2023",
+      "pickup": true,
+      "id": 6
+    },
+    {
+      "name": "wewewe",
+      "shippingAddress": "wewe",
+      "city": "ewewe",
+      "date": "4/9/2023",
+      "pickup": true,
+      "id": 7
+    },
+    {
+      "name": "swweew",
+      "store": {
+        "id": 3,
+        "name": "Chambers and West Broadway",
+        "address": "125 Chambers Street",
+        "city": "New York",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "4/9/2023",
+      "pickup": false,
+      "id": 8
+    },
+    {
+      "name": "sdsds",
+      "store": {
+        "id": 4,
+        "name": "Covent Garden - Russell St",
+        "address": "10 Russell Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "4/9/2023",
+      "pickup": false,
+      "id": 9
+    },
+    {
+      "name": "dsdsdsds",
+      "shippingAddress": "wwewew",
+      "city": "ewewew",
+      "date": "4/9/2023",
+      "isDelivery": true,
+      "id": 10
+    },
+    {
+      "name": "sdsdsd",
+      "store": {
+        "id": 4,
+        "name": "Covent Garden - Russell St",
+        "address": "10 Russell Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "4/9/2023",
+      "isDelivery": false,
+      "id": 11
+    },
+    {
+      "name": "dsdsds",
+      "shippingAddress": "dsdsdsd",
+      "city": "dsdsd",
+      "date": "4/9/2023",
+      "isDelivery": true,
+      "id": 12
+    },
+    {
+      "name": "dfsdfd",
+      "shippingAddress": "fdfdfd",
+      "city": "dfdf",
+      "date": "4/9/2023",
+      "isDelivery": true,
+      "id": 13
     }
   ],
   "detailsOrders": [
@@ -179,6 +274,149 @@
       ],
       "orderId": 3,
       "id": 3
+    },
+    {
+      "details": [
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 1
+        },
+        {
+          "productId": 3,
+          "productName": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
+          "quantity": 1
+        },
+        {
+          "productId": 4,
+          "productName": "SanDisk 128GB Ultra MicroSDXC UHS-I Memory Card with Adapter",
+          "quantity": 1
+        }
+      ],
+      "orderId": 4,
+      "id": 4
+    },
+    {
+      "details": [
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 1
+        },
+        {
+          "productId": 3,
+          "productName": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
+          "quantity": 1
+        },
+        {
+          "productId": 4,
+          "productName": "SanDisk 128GB Ultra MicroSDXC UHS-I Memory Card with Adapter",
+          "quantity": 1
+        }
+      ],
+      "orderId": 5,
+      "id": 5
+    },
+    {
+      "details": [
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 1
+        },
+        {
+          "productId": 3,
+          "productName": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
+          "quantity": 1
+        }
+      ],
+      "orderId": 6,
+      "id": 6
+    },
+    {
+      "details": [
+        {
+          "productId": 1,
+          "productName": "Essential TypeScript 4: From Beginner to Pro",
+          "quantity": 1
+        }
+      ],
+      "orderId": 7,
+      "id": 7
+    },
+    {
+      "details": [
+        {
+          "productId": 1,
+          "productName": "Essential TypeScript 4: From Beginner to Pro",
+          "quantity": 1
+        },
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 1
+        }
+      ],
+      "orderId": 8,
+      "id": 8
+    },
+    {
+      "details": [
+        {
+          "productId": 3,
+          "productName": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
+          "quantity": 1
+        },
+        {
+          "productId": 4,
+          "productName": "SanDisk 128GB Ultra MicroSDXC UHS-I Memory Card with Adapter",
+          "quantity": 1
+        }
+      ],
+      "orderId": 9,
+      "id": 9
+    },
+    {
+      "details": [
+        {
+          "productId": 1,
+          "productName": "Essential TypeScript 4: From Beginner to Pro",
+          "quantity": 1
+        },
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 1
+        }
+      ],
+      "orderId": 10,
+      "id": 10
+    },
+    {
+      "details": [
+        {
+          "productId": 1,
+          "productName": "Essential TypeScript 4: From Beginner to Pro",
+          "quantity": 2
+        },
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 1
+        }
+      ],
+      "orderId": 11,
+      "id": 11
+    },
+    {
+      "details": [],
+      "orderId": 12,
+      "id": 12
+    },
+    {
+      "details": [],
+      "orderId": 13,
+      "id": 13
     }
   ]
 }

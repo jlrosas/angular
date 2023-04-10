@@ -18,11 +18,11 @@
         <p>choose an option:</p>
         <mat-radio-button 
         value="pickup"
-        (change)="onPickupOrDelivery(false)" checked
+        (change)="onPickupOrDelivery(false)" 
         >pickup</mat-radio-button>
         <mat-radio-button 
         value="delivery"
-        (change)="onPickupOrDelivery(true)"
+        (change)="onPickupOrDelivery(true)" checked
         >delivery</mat-radio-button>
     </mat-radio-group>
     <ng-container *ngIf="isDelivery; else showStores">
